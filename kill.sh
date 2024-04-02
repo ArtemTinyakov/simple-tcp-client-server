@@ -1,0 +1,1 @@
+ssh -t jetson@10.0.111.176 "tmux kill-session -t chat-client && tmux kill-session -t chat-server"
